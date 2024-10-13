@@ -9,11 +9,40 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
-h1 {font-size: 84px;
+
+/* Header styles */
+header {
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    margin-bottom: 20px; /* Espaçamento abaixo do cabeçalho */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamanho da fonte do cabeçalho */
+    color: var(--red-600); /* Cor do texto */
+}
+
+
+body {
+    background-color: #8A9A5B; /* Verde musgo claro */
+    color: #ffffff; /* Cor do texto em branco */
+}
+
+h1, h2, h3 {
+    color: #ffcc00; /* Cor dos títulos em amarelo */
+}
+
+p {
+    color: #ffffff; /* Cor do texto dos parágrafos em branco */
+}
+
+
+h1 {
+    font-size: 84px;
     text-align: center;
     font-weight: normal;
     letter-spacing: -2px;
     margin-bottom: 32px;
+    
     
 }
  /* Any particular value? 16px maybe? Or perhaps 64px? */

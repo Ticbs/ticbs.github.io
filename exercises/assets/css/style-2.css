@@ -11,6 +11,25 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+
+body {
+    background-color: #8A9A5B; /* Verde musgo claro */
+    color: #ffffff; /* Cor do texto em branco */
+}
+
+h1, h2, h3 {
+    color: #ffcc00; /* Cor dos títulos em amarelo */
+}
+
+p {
+    color: #ffffff; /* Cor do texto dos parágrafos em branco */
+}
+
+a {
+    color: #ffd700; /* Cor dos links em dourado */
+}
+
+
 h1 {
     font-size: 84px;
     margin-bottom: 64px;

@@ -12,8 +12,12 @@ input, button, textarea, select { font: inherit }
 /* ================= ENDS ================ */
 
 body {
-    text-align: center;
-    font-family: sans-serif;
+    body {
+        background-color: #8A9A5B; /* Verde musgo claro */
+        color: #ffffff; /* Cor do texto em branco */
+        font-family: Arial, sans-serif;
+    }
+    
 }
 
 h1 {
