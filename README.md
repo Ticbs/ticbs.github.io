@@ -1,1 +1,0 @@
-# ticbs.github.io
