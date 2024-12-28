@@ -1,0 +1,116 @@
+/*  ============= WEB BROWSER RESETS ============ */
+* { margin: 0; padding: 0; border: none }
+*, *::before, *::after { box-sizing: border-box }
+html { height: 80%; font-size: 80%; font: inherit; vertical-align: baseline;
+scroll-behavior: smooth; scroll-padding-top: 20px }
+body { line-height: 1.5; min-height: 100vh }
+@media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
+@media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
+img { width: 100%; height: auto; display: block }
+input, button, textarea, select { font: inherit }
+
+/* RESETS */
+
+
+/* Header styles */
+header {
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    margin-bottom: 20px; /* Espaçamento abaixo do cabeçalho */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamanho da fonte do cabeçalho */
+    color: var(--red-600); /* Cor do texto */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
+/* Custom Colors */
+:root {
+    --red-050: #FEF2F2;
+    --red-100: #fff5f5;
+    --red-200: #fed7d7;
+    --red-300: #feb2b2;
+    --red-400: #fc8181;
+    --red-500: #f56565;
+    --red-600: #e53e3e;
+    --red-700: #c53030;
+    --red-800: #9b2c2c;
+    --red-900: #742a2a;
+}
+
+/* Main styles */
+main {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Section Styles */
+.section {
+    padding: 20px; /* Espaçamento interno para cada seção */
+    margin-bottom: 20px; /* Espaçamento entre seções */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.section-1 {
+    background-color: var(--red-100);
+    color: #000; /* Texto em preto */
+}
+
+.section-2 {
+    background-color: var(--red-200);
+    color: #000; /* Texto em preto */
+}
+
+.section-3 {
+    background-color: var(--red-300);
+    color: #000; /* Texto em preto */
+}
+
+.section-4 {
+    background-color: var(--red-400);
+    color: #fff; /* Texto em branco */
+}
+
+.section-5 {
+    background-color: var(--red-500);
+    color: #fff; /* Texto em branco */
+}
+
+.section-6 {
+    background-color: var(--red-600);
+    color: #fff; /* Texto em branco */
+}
+
+h2 {
+    background-color: var(--blue-700); /* Aplique uma cor de fundo se necessário */
+    padding: 10px; /* Espaçamento interno do cabeçalho */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+.section-4 p {
+    background-color: var(--gray-800); /* Adicione essa regra se necessário */
+    color: #fff; /* Texto em branco para melhor legibilidade */
+    padding: 10px; /* Espaçamento interno do parágrafo */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Estilos adicionais para responsividade */
+@media (max-width: 768px) {
+    main {
+        padding: 10px; /* Diminui o espaçamento em telas menores */
+    }
+
+    .section {
+        padding: 15px; /* Ajusta o espaçamento interno */
+    }
+
+    h2 {
+        padding: 8px; /* Ajusta o espaçamento do cabeçalho */
+    }
+}
